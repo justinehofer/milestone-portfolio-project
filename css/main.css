@@ -1,0 +1,158 @@
+/* BASE STYLES */
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* GRID */
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/* HEADER */
+header{
+    height: 800px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+    background-position: center;
+}
+header h1 span{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #bdbf09;
+}
+header h1{
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #095256;
+}
+
+/* NAV BAR */
+nav{
+    padding: 75px 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #095156;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* NAV LINKS */
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #087e8b;
+}
+.active{
+    background-color: #087e8b;
+}
+
+
+#home #portfolio #about-me #blog #contact .full-width{
+    padding: 80px 0;
+}
+
+/* PORTFLIO */
+#portfolio{
+    height: 1450px;
+}
+#portfolio .full-width{
+    padding: 115px 0;
+}
+#portfolio img{
+    padding-bottom: 50px;
+}
+#portfolio h2{
+    width: 204px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 700;
+}
+#portfolio p span{
+    font-size: 24px;
+    font-weight: 700;
+}
+#portfolio p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #095156;
+}
+#portolfio .half-width img{
+    padding: 54px;
+    border: 1px solid #b7b7b7;
+}
+#portfolio .half-width li{ 
+    padding-bottom: 94px;
+}
+
+/* ABOUT ME */
+#about-me{
+    height: 650px;
+}
+#about-me .full-width{
+    padding: 80px 0;
+}
+#about-me h2{
+    font-size: 36px;
+    color: ;
+}
+#about-me p span{
+    font-size: 24px;
+    font-weight: 700;
+}
+#about-me p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* BLOG */
+#blog{
+    height: 650px;
+}
+
+/* FOOTER */
+#contact{
+    height: 400px;
+    background-color: #095156;
+}
+#contact .full-width{
+    padding: 110px 0;
+}
+#contact a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#social-media ul{
+    list-style: none;
+}
+#social-media ul li{
+    display: inline-block;
+    padding-right: 48px;
+}
