@@ -105,9 +105,11 @@ li a:hover:not(.active){
     color: #095156;
 }
 #portfolio .half-width img{
+    margin: 50px 0;
     width: 552px;
     height: 296px;
     border: 1px solid #b7b7b7;
+
 }
 #portfolio .half-width p span{
     font-size: 24px;
@@ -118,7 +120,6 @@ li a:hover:not(.active){
     font-weight: 400;
     color: #095156;
     text-align: left;
-    padding: 94px;
 }
 
 /* ABOUT ME */
