@@ -27,13 +27,21 @@ header{
     background-size: cover;
     background-position: center;
 }
-header h1 span{
+header .full-width{
+    margin-left: auto;
+    margin-right: auto;
+    width: 788px;
+    padding-top: 80px;
+}
+header .full-width h1 span{
     font-weight: 700;
     font-size: 60px;
     text-align: center;
     color: #bdbf09;
+    padding-top: 81px;
+    padding-bottom: 51px;
 }
-header h1{
+header .full-width h1{
     font-weight: 400;
     font-size: 48px;
     text-align: center;
@@ -41,76 +49,76 @@ header h1{
 }
 
 /* NAV BAR */
-header nav{
-    padding: 75px 0px;
+header .full-width nav{
+    padding: 75px 25px;
 }
-header ul{
+header .full-width nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #095156;
+    background-color: #087e8b;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 1200px;
 }
 
 /* NAV LINKS */
+header .full-width nav ul li{
+    display: inline;
+}
 li{
     float: left;
 }
 li a{
     display: block;
+    padding: 14px 80px;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    text-transform: uppercase;
-    padding: 14px 16px;
+    text-transform: capitalize;
     text-decoration: none;
 }
 li a:hover:not(.active){
-    background-color: #087e8b;
+    background-color: #095156;
 }
 .active{
     background-color: #087e8b;
 }
 
 
-#home #portfolio #about-me #blog #contact .full-width{
+#about-me #blog #contact .full-width{
     padding: 80px 0;
 }
 
 /* PORTFLIO */
-#portfolio{
+#portfolio .full-width{
     height: 1450px;
 }
-#portfolio .full-width{
-    padding: 115px 0;
-}
-#portfolio img{
-    padding-bottom: 50px;
-}
-#portfolio h2{
-    width: 204px;
-    margin: 0 auto;
+#portfolio .full-width h2{
+    width: 228px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 111px;
     font-size: 36px;
     font-weight: 700;
+    color: #095156;
 }
-#portfolio p span{
+#portfolio .half-width img{
+    width: 552px;
+    height: 296px;
+    border: 1px solid #b7b7b7;
+}
+#portfolio .half-width p span{
     font-size: 24px;
     font-weight: 700;
 }
-#portfolio p{
+#portfolio .half-width p{
     font-size: 24px;
     font-weight: 400;
     color: #095156;
-}
-#portolfio .half-width img{
-    padding: 54px;
-    border: 1px solid #b7b7b7;
-}
-#portfolio .half-width li{ 
-    padding-bottom: 94px;
+    text-align: left;
+    padding: 94px;
 }
 
 /* ABOUT ME */
