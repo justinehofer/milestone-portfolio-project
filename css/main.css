@@ -1,6 +1,7 @@
 /* BASE STYLES */
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif; /* Boldest */ 
+    font-family: 'Roboto', sans-serif; /* Regular 400; Bold 700 */
 }
 
 /* GRID */
@@ -21,148 +22,172 @@ body{
 }
 
 /* HEADER */
-header{
+header .full-width{
     height: 800px;
+    width: 1400px;
     background: url('../img/hero-image.png');
     background-size: cover;
     background-position: center;
 }
-header .full-width{
-    margin-left: auto;
-    margin-right: auto;
-    width: 788px;
-    padding-top: 80px;
-}
-header .full-width h1 span{
-    font-weight: 700;
+
+header .full-width h1{
+    font-family: 'Roboto Slab', serif;
     font-size: 60px;
     text-align: center;
     color: #bdbf09;
-    padding-top: 81px;
-    padding-bottom: 51px;
+    padding-top: 300px;
 }
-header .full-width h1{
+
+header .full-width h2{
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 48px;
     text-align: center;
     color: #095256;
+    width: 950px;
+    padding-left: 230px;
 }
 
 /* NAV BAR */
-header .full-width nav{
-    padding: 75px 25px;
-}
-header .full-width nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #087e8b;
-    position: fixed;
-    top: 0;
-    width: 1200px;
-}
-
-/* NAV LINKS */
-header .full-width nav ul li{
-    display: inline;
-}
-li{
-    float: left;
-}
-li a{
-    display: block;
-    padding: 14px 80px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-li a:hover:not(.active){
-    background-color: #095156;
-}
-.active{
-    background-color: #087e8b;
-}
 
 
-#about-me #blog #contact .full-width{
+/* ABOUT ME */
+#about-me #contact .full-width{
     padding: 80px 0;
 }
 
-/* PORTFLIO */
-#portfolio .full-width{
-    height: 1450px;
-}
-#portfolio .full-width h2{
-    width: 228px;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 111px;
+#about-me .full-width h2{
+    font-family: 'Roboto Slab', serif;
     font-size: 36px;
-    font-weight: 700;
-    color: #095156;
+    text-align: center;
 }
-#portfolio .half-width img{
-    margin: 50px 0;
+
+#about-me .half-width h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+#about-me .half-width p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* WORK */
+#work .full-width{
+    background-color: #ffffff;
+}
+
+#work .project-1, .project-2, .project-3, .project-4, .project-5{
+    overflow: auto;
+}
+
+#work .half-width img{
+    margin-top: auto;
+    margin-bottom: 30px;
     width: 552px;
     height: 296px;
     border: 1px solid #b7b7b7;
+}
 
+#work .full-width h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    color: #095156;
+    text-align: center;
+    padding-bottom: 60px;
 }
-#portfolio .half-width p span{
-    font-size: 24px;
+
+#work .half-width h3{
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
-}
-#portfolio .half-width p{
     font-size: 24px;
-    font-weight: 400;
     color: #095156;
     text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#work .half-width p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #095156;
+    text-align: left;
+    margin-top: 0px;
 }
 
 /* ABOUT ME */
 #about-me{
     height: 650px;
+    background-color: #087e8b;
 }
 #about-me .full-width{
-    padding: 80px 0;
-}
-#about-me h2{
-    font-size: 36px;
-    color: ;
-}
-#about-me p span{
-    font-size: 24px;
-    font-weight: 700;
-}
-#about-me p{
-    font-size: 24px;
-    font-weight: 400;
+    padding-top: 80px 0;
 }
 
-/* BLOG */
-#blog{
-    height: 650px;
+#about-me .full-width h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#about-me .half-width img{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-me .half-width p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 0px;
 }
 
 /* FOOTER */
 #contact{
-    height: 400px;
     background-color: #095156;
 }
 #contact .full-width{
-    padding: 110px 0;
+    height: 400px;
 }
-#contact a{
+
+#contact .full-width h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
     color: #ffffff;
-    text-decoration: none;
+    text-align: center;
 }
-#social-media ul{
-    list-style: none;
+
+#contact .third-width h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
 }
-#social-media ul li{
+
+#contact .third-width p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact .third-width ul{
+    list-style-type: none;
+    padding-left: 145px;
+}
+
+#contact .third-width li{
     display: inline-block;
-    padding-right: 48px;
 }
