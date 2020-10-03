@@ -50,33 +50,10 @@ header .full-width h2{
 
 /* NAV BAR */
 
-
-/* ABOUT ME */
-#about-me #contact .full-width{
-    padding: 80px 0;
-}
-
-#about-me .full-width h2{
-    font-family: 'Roboto Slab', serif;
-    font-size: 36px;
-    text-align: center;
-}
-
-#about-me .half-width h3{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    color: #ffffff;
-    margin-top: 0px;
-}
-
-#about-me .half-width p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
 /* WORK */
-#work .full-width{
+#work{
+    height: auto;
+    width: 1400px;
     background-color: #ffffff;
 }
 
@@ -120,11 +97,10 @@ header .full-width h2{
 }
 
 /* ABOUT ME */
-#about-me{
-    height: 650px;
-    background-color: #087e8b;
-}
 #about-me .full-width{
+    height: 650px;
+    width: 1400px;
+    background-color: #087e8b;
     padding-top: 80px 0;
 }
 
@@ -140,27 +116,38 @@ header .full-width h2{
     width: 350px;
     height: 350px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 180px;
+}
+
+#about-me .half-width h3{
+    margin-top: 0px;
+    padding-left: 100px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
 }
 
 #about-me .half-width p{
+    padding-left: 100px;
+    text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #ffffff;
-    margin-top: 0px;
 }
 
 /* FOOTER */
-#contact{
+#contact .full-width{
+    height: auto;
+    width: 1400px;
     background-color: #095156;
 }
-#contact .full-width{
-    height: 400px;
-}
 
-#contact .full-width h2{
+#contact h2{
+    margin: 36px 0px 36px 0px;
+    width: 1400px;
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     color: #ffffff;
@@ -168,6 +155,9 @@ header .full-width h2{
 }
 
 #contact .third-width h3{
+    width: 300px;
+    padding-left: 150px;
+    padding-top: 72px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -176,6 +166,8 @@ header .full-width h2{
 }
 
 #contact .third-width p{
+    width: 400px;
+    padding-left: 100px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -185,22 +177,24 @@ header .full-width h2{
 
 #contact .third-width ul{
     list-style-type: none;
-    padding-left: 72px;
+    padding-left: 170px;
+    width: 400px;
 }
 
 #contact .third-width li{
     display: inline-block;
-    margin-right: 48px;
+    margin-right: 50px;
 }
 
 #contact .full-width small{
+    width: 400px;
+    padding-left: 500px;
+    padding-top: 72px;
+    float: left;
+
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
     text-align: center;
-
-    float: left;
-    padding-left: 470px;
-    padding-top: 70px;
 }
