@@ -45,7 +45,7 @@ header .full-width h2{
     text-align: center;
     color: #095256;
     width: 950px;
-    padding-left: 230px;
+    padding-left: 220px;
 }
 
 /* NAV BAR */
@@ -63,7 +63,8 @@ header .full-width h2{
 
 #work .half-width img{
     margin-top: auto;
-    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-bottom: 54px;
     width: 552px;
     height: 296px;
     border: 1px solid #b7b7b7;
