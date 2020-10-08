@@ -57,7 +57,7 @@ header .full-width h2{
     background-color: #ffffff;
 }
 
-#work .project-1, .project-2, .project-3, .project-4, .project-5{
+#work .project-1, .project-2, .project-3, .project-4{
     overflow: auto;
 }
 
