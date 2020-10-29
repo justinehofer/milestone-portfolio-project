@@ -51,7 +51,7 @@ header .full-width h2{
 /* NAV BAR */
 
 /* WORK */
-#work{
+#work .full-width{
     height: auto;
     width: 1400px;
     background-color: #ffffff;
@@ -65,8 +65,6 @@ header .full-width h2{
     margin-top: auto;
     margin-right: 50px;
     margin-bottom: 54px;
-    width: 552px;
-    height: 296px;
     border: 1px solid #b7b7b7;
 }
 
@@ -98,7 +96,7 @@ header .full-width h2{
 }
 
 /* ABOUT ME */
-#about-me{
+#about-me .full-width{
     height: 650px;
     width: 1400px;
     background-color: #087e8b;
