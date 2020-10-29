@@ -51,7 +51,7 @@ header .full-width h2{
 /* NAV BAR */
 
 /* WORK */
-#work{
+#work .full-width{
     height: auto;
     width: 1400px;
     background-color: #ffffff;
