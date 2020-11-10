@@ -138,7 +138,7 @@ header .full-width h2{
     background-color: #095156;
 }
 
-#contact h2{
+#contact .full-width h2{
     margin: 36px 0px 36px 0px;
     width: 1400px;
     font-family: 'Roboto Slab', serif;
