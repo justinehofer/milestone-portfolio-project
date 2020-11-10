@@ -77,8 +77,7 @@ header .full-width h2{
     font-size: 24px;
     color: #095156;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0;
 }
 
 #work .half-width p{
