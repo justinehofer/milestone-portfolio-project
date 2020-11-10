@@ -22,7 +22,7 @@ body{
 }
 
 /* HEADER */
-header .full-width{
+header{
     height: 800px;
     background: url('../img/hero-image.png');
     background-size: cover;
