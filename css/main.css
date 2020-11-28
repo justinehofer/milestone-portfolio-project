@@ -125,11 +125,11 @@ header .full-width h2{
 }
 
 #about-me .half-width p{
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
 }
 
 /* FOOTER */
