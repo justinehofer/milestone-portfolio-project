@@ -12,8 +12,8 @@ body{
 }
 
 .half-width{
-    width: 600px;
     float: left;
+    width: 600px;
 }
 
 .third-width{
