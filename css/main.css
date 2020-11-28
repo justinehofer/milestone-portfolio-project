@@ -148,11 +148,11 @@ header .full-width h2{
 }
 
 #contact .third-width h3{
-    padding-top: 56px;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #ffffff;
+    padding-top: 56px;
     text-align: center;
 }
 
