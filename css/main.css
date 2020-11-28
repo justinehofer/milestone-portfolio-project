@@ -61,8 +61,8 @@ header .full-width h2{
 }
 
 #work .half-width img{
-    margin-bottom: 50px;
     border: 1px solid #b7b7b7;
+    margin-bottom: 50px;
 }
 
 #work .full-width h2{
