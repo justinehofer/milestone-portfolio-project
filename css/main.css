@@ -109,10 +109,10 @@ header .full-width h2{
 }
 
 #about-me .half-width img{
-    width: 350px;
-    height: 350px;
     display: block;
+    height: 350px;
     padding-left: 180px;
+    width: 350px;
 }
 
 #about-me .half-width h3{
