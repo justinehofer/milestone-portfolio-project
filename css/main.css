@@ -140,10 +140,10 @@ header .full-width h2{
 }
 
 #contact .full-width h2{
-    margin: 36px 0px 36px 0px;
+    color: #ffffff;
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
-    color: #ffffff;
+    margin: 36px 0px 36px 0px;
     text-align: center;
 }
 
