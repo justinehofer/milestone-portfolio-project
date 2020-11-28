@@ -100,9 +100,9 @@ header .full-width h2{
 }
 
 #about-me .full-width h2{
+    color: #ffffff;
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
-    color: #ffffff;
     margin-top: 0px;
     padding-bottom: 60px;
     text-align: center;
