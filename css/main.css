@@ -54,6 +54,7 @@ header .full-width h2{
 #work{
     background-color: #ffffff;
     height: auto;
+    width: 1400px;
 }
 
 #work .project-1, .project-2, .project-3, .project-4{
