@@ -17,8 +17,8 @@ body{
 }
 
 .third-width{
-    width: 400px;
     float: left;
+    width: 400px;
 }
 
 /* HEADER */
