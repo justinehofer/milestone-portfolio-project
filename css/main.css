@@ -23,11 +23,11 @@ body{
 
 /* HEADER */
 header{
+    background: url('../img/hero-image.png');
+    background-position: center;
+    background-size: cover;
     height: 800px;
     width: 1400px;
-    background: url('../img/hero-image.png');
-    background-size: cover;
-    background-position: center;
 }
 
 header .full-width h1{
