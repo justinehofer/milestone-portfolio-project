@@ -93,10 +93,10 @@ header .full-width h2{
 
 /* ABOUT ME */
 #about-me{
-    height: 650px;
-    width: 1400px;
     background-color: #087e8b;
+    height: 650px;
     padding: 80px 0;
+    width: 1400px;
 }
 
 #about-me .full-width h2{
