@@ -6,9 +6,9 @@ body{
 
 /* GRID */
 .full-width{
-    width: 1200px;
     margin: 0 auto;
     overflow: auto;
+    width: 1200px;
 }
 
 .half-width{
