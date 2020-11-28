@@ -175,10 +175,10 @@ header .full-width h2{
 }
 
 #contact .copyright p{
-    padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
     text-align: center;
 }
