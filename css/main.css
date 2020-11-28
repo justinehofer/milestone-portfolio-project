@@ -134,9 +134,9 @@ header .full-width h2{
 
 /* FOOTER */
 #contact{
+    background-color: #095156;
     height: 400px;
     width: 1400px;
-    background-color: #095156;
 }
 
 #contact .full-width h2{
